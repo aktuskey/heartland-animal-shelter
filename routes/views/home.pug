@@ -1,0 +1,9 @@
+extends ./_layout.pug
+
+block head
+	title='Homepage'
+
+block content
+	section.intro-section( style=`background-image: url(${page.introImage})` )
+		h1.intro-section__headline=page.introHeadline
+		button.intro-section__cta-btn=page.introLabel

@@ -16,5 +16,11 @@
   "dependencies": {
     "keystone": "^4.0.0-beta.5",
     "pug": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "^2.1.0"
   }
 }
