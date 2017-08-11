@@ -39,12 +39,6 @@ Settings.add({
 			dependsOn: { type: 'Homepage' },
 			default: 'Adopt Today'
 		},
-		logo: {
-			type: Types.Text,
-			required: true,
-			dependsOn: { type: 'Homepage' },
-			default: 'http://res.cloudinary.com/dva1sf6ie/image/upload/v1502472413/logo_nthsap.png'
-		},
 		aboutUs: {
 			type: Types.Html,
 			wysiwyg: true,

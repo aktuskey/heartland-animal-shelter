@@ -4,10 +4,10 @@ block head
 	title='Homepage'
 
 block content
+	.navigation__container
+		.navigation__links
+		.navigation__logo
 	section.intro-section( style=`background-image: url(${page.introImage})` )
-		.navigation__container
-			.navigation__links
-			.navigation__logo( style=`background-image: url(${page.logo})` )
 		.intro-section__container
 			h1.intro-section__headline=page.introHeadline
 			button.intro-section__cta-btn=page.introLabel
