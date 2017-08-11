@@ -17,26 +17,33 @@ Settings.add({
 			hidden: true,
 			required: true,
 			initial: true
-		}
+		},
 	},
+
 	{ heading: 'Homepage Settings', dependsOn: { type: 'Homepage' } }, {
 		introImage: {
 			type: Types.Text,
 			required: true,
 			dependsOn: { type: 'Homepage' },
-			default: 'http://qige87.com/data/out/138/wp-image-142714097.jpg'
+			default: 'http://res.cloudinary.com/dva1sf6ie/image/upload/v1502471094/home-hero_nwujgg.png'
 		},
 		introHeadline: {
 			type: Types.Text,
 			required: true,
 			dependsOn: { type: 'Homepage' },
-			default: 'Find Your New Best Friend!'
+			default: 'Open your heart to Heartland Animal Shelter'
 		},
 		introLabel: {
 			type: Types.Text,
 			required: true,
 			dependsOn: { type: 'Homepage' },
 			default: 'Adopt Today'
+		},
+		logo: {
+			type: Types.Text,
+			required: true,
+			dependsOn: { type: 'Homepage' },
+			default: 'http://res.cloudinary.com/dva1sf6ie/image/upload/v1502472413/logo_nthsap.png'
 		},
 		aboutUs: {
 			type: Types.Html,

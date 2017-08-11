@@ -1,0 +1,42 @@
+.intro-section {
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.intro-section__container {
+	padding: 0 60px;
+}
+
+h1.intro-section__headline {
+	color: $white;
+	font-size: $font__size-h1;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	width: 60%;
+}
+
+button.intro-section__cta-btn {
+	font-weight: 700;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+	background-color: $red;
+	padding: 15px 30px;
+	color: $white;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 5px 5px 18px rgba(0,0,0,0.2);
+  	transition: all 0.16s ease-out;
+  
+	  &:hover {
+	    background-color: $white;
+	    color: $red;
+	    transition: all 0.16s ease-in;
+	  }
+}

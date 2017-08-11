@@ -1,9 +1,3 @@
-html, body {
-	height: 100%;
-	margin: 0;
-}
-
-.intro-section {
-	color: white;
-	text-transform: uppercase;
-}
+@import "variables/manifest";
+@import "mixins/manifest";
+@import "blocks/home/manifest";

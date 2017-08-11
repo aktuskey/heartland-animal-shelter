@@ -1,0 +1,13 @@
+/* Breakpoints */
+
+@mixin bp-max($custom-px){
+	@media screen and (max-width: px-to-em($custom-px, $base-font-size)){
+	  @content;
+	}
+}
+
+@mixin bp-min($custom-px){
+	@media screen and (min-width: px-to-em($custom-px, $base-font-size)){
+	  @content;
+	}
+}
